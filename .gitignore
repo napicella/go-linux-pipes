@@ -1,4 +1,7 @@
 # Binaries for programs and plugins
+bin
+*.iml
+.idea
 *.exe
 *.exe~
 *.dll
