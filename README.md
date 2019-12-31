@@ -18,7 +18,7 @@ ZEBRA
 ```bash
 > ./bin/uppercase --help
 Simple demo of the usage of linux pipes
-Transform the input (pipe of file) to uppercase letters
+Transform the input (pipe or file) to uppercase letters
 
 Usage:
   uppercase [flags]
