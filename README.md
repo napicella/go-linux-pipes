@@ -2,12 +2,12 @@ Companion code for the article Using Linux Pipes with Go
 
 ### Build
 ```bash
-go build -o ./bin/go-pipe
+go build -o ./bin/uppercase
 ```
 
 ### Run
 ```bash
-> ./bin/go-pipe --help
+> ./bin/uppercase --help
 Simple demo of the usage of linux pipes
 Transform the input (pipe of file) to uppercase letters
 
@@ -20,9 +20,9 @@ Flags:
   -v, --verbose       log verbose output
   
   
-> echo "hello from the shell" | ./bin/go-pipe
+> echo "hello from the shell" | ./bin/uppercase
   HELLO FROM THE SHELL
   
-> ./bin/go-pipe -f /tmp/test 
+> ./bin/uppercase -f /tmp/test 
   HELLO FROM FILE    
 ```

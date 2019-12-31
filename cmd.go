@@ -46,7 +46,7 @@ func getFile() (*os.File, error){
 func toUppercase(r io.Reader, w io.Writer) error {
 	scanner := bufio.NewScanner(bufio.NewReader(r))
 	for scanner.Scan() {
-		_, e := fmt.Fprint(
+		_, e := fmt.Fprintln(
 			w, strings.ToUpper(scanner.Text()))
 		if e != nil {
 			return e
