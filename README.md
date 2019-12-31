@@ -5,7 +5,16 @@ Companion code for the article Using Linux Pipes with Go
 go build -o ./bin/uppercase
 ```
 
-### Run
+### Example
+```bash
+> cat words | sort | uniq | uppercase
+APPLE
+BYE
+HELLO
+ZEBRA
+```
+
+### Command line options
 ```bash
 > ./bin/uppercase --help
 Simple demo of the usage of linux pipes
