@@ -1,4 +1,4 @@
-Companion code for the article Using Linux Pipes with Go
+Companion code for the article [Using Linux Pipes with Go](https://dev.to/napicella/linux-pipes-in-golang-2e8j)
 
 ### Build
 ```bash
